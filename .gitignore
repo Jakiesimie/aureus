@@ -1,0 +1,7 @@
+TwD/local_settings.py
+myenv
+__pycache__
+staticfiles
+local_settings.py
+*.sqlite3
+*.py[co]
