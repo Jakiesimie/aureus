@@ -5,7 +5,7 @@
 	<div class="post">
 	{% if post.published_date %}
 		<div class="date">
-			published: {{ post.published_date }}, author: <a href='http://www.google.com'>{{ post.author }}</a>
+			published: {{ post.published_date }}, author: <a href='http://www.google.com'>{{ post.author }}</a>, views: {{ post.views }}
 		</div>
 	{% else %}
 		<a class="btn btn-default" href="{% url 'blog.views.post_publish' pk=post.pk %}">Publish</a>	
