@@ -11,7 +11,15 @@ body {
 .page-header {
 	background-color: #2E0260;
 	margin-top: 0;
-	padding: 20px 20px 20px 40px
+	padding: 20px 20px 20px 40px;
+}
+
+.page-footer {
+	background-color: #2E0260;
+	clear: both;
+	text-align: right;
+	font-size: 20px;
+	padding: 20px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:activate {
@@ -26,12 +34,12 @@ body {
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Lobster', cursive;
+	font-family: 'Playball', cursive;
 }
 
 .date {
 	float: left;
-	color: #2D0655
+	color: #2D0655;
 }
 
 .save {
@@ -44,9 +52,15 @@ h1, h2, h3, h4 {
 }
 
 .post {
-	margin-bottom: 70px;
+	margin-bottom: 80px;
 }
 
 .post h1 a, .post h1 a:visited {
 	color: #54019F;
+}
+
+a:hover {
+	color: #FFA319;
+	font-weight: bold;
+	text-decoration: none;
 }
