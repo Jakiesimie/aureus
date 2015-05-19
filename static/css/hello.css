@@ -9,6 +9,7 @@ body {
 }
 
 .page-header {
+	float: top;
 	background-color: #2E0260;
 	margin-top: 0;
 	padding: 20px 20px 20px 40px;
@@ -24,7 +25,7 @@ body {
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:activate {
 	color: #F01F07;
-	font-size 36pt;
+	font-size: 36px;
 	text-decoration: none;
 }
 
@@ -52,7 +53,8 @@ h1, h2, h3, h4 {
 }
 
 .post {
-	margin-bottom: 80px;
+	margin: 20px 0px 70px 0px;
+	clear: both;
 }
 
 .post h1 a, .post h1 a:visited {
