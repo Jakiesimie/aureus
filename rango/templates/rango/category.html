@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-{% load staticfiles %}
 <html>
 	<head>
-		<link rel="icon" type="image/png" href="{% static "icons/favicon.png" %}"/>
 		<title>Rango</title>
 	</head>
 	
@@ -18,7 +16,9 @@
 			{% else %}
 				<strong>No pages curently in category.</strong><br /><br />
 			{% endif %}
+			
 			<a href="/rango/{{ category.slug }}/add_page/">Add a New Page</a>
+
 		{% else %}
 			The specified category {{ category_name }} does not exist!
 		{% endif %}
