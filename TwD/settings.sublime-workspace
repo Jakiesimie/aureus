@@ -1,0 +1,246 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 275.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 374.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/neevor/code/wielobarwny/static/css/hello.css",
+		"/home/neevor/code/wielobarwny/blog/templates/blog/post_list.html",
+		"/home/neevor/code/wielobarwny/blog/templates/blog/post_detail.html",
+		"/home/neevor/code/djangogirls/runtime.txt",
+		"/home/neevor/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/neevor/code/tango-with-django/TwD/local_settings.py",
+		"/home/neevor/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+		"/home/neevor/.config/sublime-text-3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/home/neevor/.config/sublime-text-3/Packages/Djaneiro/Settings/HTML (Django).sublime-settings",
+		"/home/neevor/.config/sublime-text-3/Packages/CSS3/CSS3.sublime-settings",
+		"/home/neevor/code/tango-with-django/rango/templates/rango/register.html",
+		"/home/neevor/code/tango-with-django/rango/templates/rango/user_login.html",
+		"/home/neevor/code/tango-with-django/rango/forms.py",
+		"/home/neevor/code/tango-with-django/rango/templates/rango/add_category.html",
+		"/home/neevor/code/tango-with-django/rango/templates/rango/add_page.html",
+		"/home/neevor/code/tango-with-django/rango/templates/rango/index.html",
+		"/home/neevor/code/wielobarwny/hello/urls.py",
+		"/home/neevor/code/wielobarwny/TwD/urls.py",
+		"/home/neevor/code/tango-with-django/TwD/urls.py",
+		"/home/neevor/code/tango-with-django/rango/urls.py",
+		"/home/neevor/code/tango-with-django/rango/views.py",
+		"/home/neevor/code/suvada/chat/templates/chat/index.html",
+		"/home/neevor/code/suvada/chat/models.py",
+		"/home/neevor/code/wielobarwny/blog/models.py",
+		"/home/neevor/code/suvada/chat/templates/chat/base.html",
+		"/home/neevor/code/suvada/chat/forms.py",
+		"/home/neevor/code/suvada/chat/templates/chat/post_detail.html",
+		"/home/neevor/code/suvada/chat/views.py",
+		"/home/neevor/code/suvada/chat/urls.py",
+		"/home/neevor/code/suvada/suvada/urls.py",
+		"/home/neevor/code/suvada/suvada/settings.py",
+		"/home/neevor/code/wielobarwny/blog/templates/blog/post_draft_list.html",
+		"/home/neevor/code/tango-with-django/TwD/settings.py",
+		"/home/neevor/code/tango-with-django/rango/templates/rango/category.html",
+		"/home/neevor/code/tango-with-django/rango/admin.py",
+		"/home/neevor/code/tango-with-django/rango/models.py",
+		"/home/neevor/code/wielobarwny/blog/urls.py",
+		"/home/neevor/code/wielobarwny/blog/views.py",
+		"/home/neevor/code/wielobarwny/blog/tests.py",
+		"/home/neevor/code/wielobarwny/rango/views.py",
+		"/home/neevor/code/wielobarwny/hello/views.py",
+		"/home/neevor/code/wielobarwny/TwD/settings.py",
+		"/home/neevor/code/tango-with-django/rango/templates/rango/login.html",
+		"/home/neevor/code/wielobarwny/rango/templates/rango/index.html",
+		"/home/neevor/code/wielobarwny/rango/templates/rango/add_page.html",
+		"/home/neevor/code/wielobarwny/polls/templates/polls/detail.html",
+		"/home/neevor/code/wielobarwny/blog/templates/blog/base.html",
+		"/home/neevor/code/wielobarwny/rango/templates/rango/category.html",
+		"/home/neevor/code/wielobarwny/rango/templates/rango/add_category.html",
+		"/home/neevor/code/wielobarwny/hello/templates/hello/index.html",
+		"/home/neevor/code/wielobarwny/polls/templates/polls/index.html",
+		"/home/neevor/code/wielobarwny/blog/templates/registration/login.html",
+		"/home/neevor/code/python-getting-started/hello/views.py",
+		"/home/neevor/code/wielobarwny/polls/urls.py",
+		"/home/neevor/code/mysite/mysite/urls.py",
+		"/home/neevor/code/wielobarwny/populate.py",
+		"/home/neevor/code/python-getting-started/gettingstarted/urls.py",
+		"/home/neevor/code/python-getting-started/hello/admin.py",
+		"/home/neevor/code/mysite/polls/views.py",
+		"/home/neevor/code/mysite/polls/templates/polls/index.html",
+		"/home/neevor/code/test.py",
+		"/home/neevor/code/tango-with-django/templates/rango/index.html",
+		"/home/neevor/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/neevor/.config/sublime-text-3/Packages/Anaconda/README.md",
+		"/home/neevor/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/neevor/.config/sublime-text-3/Packages/User/Python.sublime-settings"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"content",
+			"login",
+			"blog",
+			"LOGIN",
+			"login_url",
+			"login",
+			"dict"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "settings.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
