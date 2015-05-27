@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+    <head>
+		<title>What Say You?</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/stylesheet.css' %}"/>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="{% static 'scripts/script.js' %}"></script>
+	</head>
+	<body>
+		<div class="panel">
+			<button class="button" id="mmagick">Make Magick!</button>
+	        <button class="button" id="rmagick">Reverse Magick!</button>
+	        <button class="button" id="grow">+</button>
+	        <button class="button" id="shrink">-</button>
+        </div>
+        <p class="slide">
+        	<div class="pull-me">
+        		Menu
+        	</div>
+        </p>
+        {# <a href="1.html">PORTFOLIO</a> #}
+        <div id="ready">I'm ready!</div>
+        <div id="notready">You'll never take me alive, jQuery!</div>
+	</body>
+</html>
