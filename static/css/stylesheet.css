@@ -9,6 +9,12 @@ div {
     margin-right:5px;
 }
 
+img {
+    position: relative;
+    top: 0;
+    left: 0; 
+}
+
 #ready {
     display: inline-block;
     margin: 3px;
