@@ -62,4 +62,22 @@ $(document).ready(function() {
 				break;
 		}
 	});
+
+	$('#yellow').click(function() {
+		$(this).effect('explode');
+	});
+
+	$('#resurrect').click(function() {
+		$('#yellow').fadeIn('fast');
+	});
+
+	$('img').draggable();
+    $('#home').draggable();
+    $('#ready').draggable();
+    $('#notready').draggable();
+    $('#menu').draggable();
+    $('#yellow').draggable();
+    $('p').draggable();
+
+	$('#menu').accordion();
 });

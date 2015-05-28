@@ -6,6 +6,8 @@
 		<title>What Say You?</title>
         <link rel="stylesheet" type="text/css" href="{% static 'css/stylesheet.css' %}"/>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
         <script type="text/javascript" src="{% static 'scripts/script.js' %}"></script>
 	</head>
 	<body>
@@ -14,16 +16,37 @@
 	        <button class="button" id="rmagick">Reverse Magick!</button>
 	        <button class="button" id="grow">+</button>
 	        <button class="button" id="shrink">-</button>
+	        <button class="button" id="resurrect">Resurrect Orange</button>
         </div>
         <p class="slide">
         	<div class="pull-me">
         		Menu
         	</div>
         </p>
+        <a href="/"><div id="home">Powrót na główną</div></a>
+
         <div id="ready">I'm ready!</div>
         <div id="notready">You'll never take me alive, jQuery!</div>
+        <div id="yellow">DON'T CLICK ME!</div>
         <br />
-        <p>Sterowanie Mario: strzałki.</p>
+
+        <p>Mario: sterowanie - strzalki (klawiatura);</p>
+        <p>Wszystkie elementy (poza menu) mozna przenosic myszka w inne miejsce ekranu.</p>
         <img src="http://i1061.photobucket.com/albums/t480/ericqweinstein/mario.jpg"/>
+
+        <div id="menu">
+        	<h3>Section 1</h3>
+        	<div>
+        		First section.
+        	</div>
+        	<h3>Section 2</h3>
+        	<div>
+        		Second section.
+        	</div>
+        	<h3>Section 3</h3>
+        	<div>
+        		Third section.
+        	</div>
+        </div>
 	</body>
 </html>
