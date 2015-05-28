@@ -71,13 +71,7 @@ $(document).ready(function() {
 		$('#yellow').fadeIn('fast');
 	});
 
-	$('img').draggable();
-    $('#home').draggable();
-    $('#ready').draggable();
-    $('#notready').draggable();
-    $('#menu').draggable();
-    $('#yellow').draggable();
-    $('p').draggable();
-
+	$('img, #home, #ready, #notready, #menu, #yellow, p').draggable();
+    
 	$('#menu').accordion();
 });
