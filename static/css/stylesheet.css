@@ -20,6 +20,10 @@ a {
     text-decoration: none;    
 }
 
+#menu {
+    width: 300px;
+}
+
 #home {
     height: 30px;
     width: 200px;
