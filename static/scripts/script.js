@@ -68,10 +68,10 @@ $(document).ready(function() {
 	});
 
 	$('#resurrect').click(function() {
-		$('#yellow').fadeIn('fast');
+		$('#yellow').fadeTo('fast', 1);
 	});
 
-	$('img, #home, #ready, #notready, #menu, #yellow, p').draggable();
-    
+	$('img').draggable();
+
 	$('#menu').accordion();
 });

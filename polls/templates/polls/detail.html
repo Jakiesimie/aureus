@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-{% load staticfiles %}
-<link rel="icon" type="image/png" href="{% static "icons/favicon.png" %}"/>
 <h1><a href="{% url 'polls:index' %}">{{ question.question_text }}</a></h1>
 
 {% if error_message %}<p><stron>{{ error_message }}</stron></p>{% endif%}
